@@ -1,0 +1,45 @@
+/*
+File name:
+Student's name: Man Chun Yeung
+StudentID: 301251548
+Date: 28 May 2023
+*/
+
+.homepage {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  transform: translateY(-50%);
+  width: 500px;
+}
+
+.overlay-text-box {
+  background-color: white;
+  padding: 20px;
+  opacity: 0.6;
+}
+.overlay-text2 {
+  color:brown;
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  transform: translateY(-50%);
+  width: 500px;
+}
+  
+.overlay-text-box2 {
+  background-color: white;
+  padding: 20px;
+  opacity: 0.6;
+}
+
+.card h-100 {
+  padding: 30px; 
+}

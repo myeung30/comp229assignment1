@@ -1,0 +1,56 @@
+body {
+  background-color: lightgrey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#word {
+  display: flex;
+}
+
+.wordBox {
+  margin-right: 15px;
+}
+
+.wordBox-letter {
+  font-size: 60px;
+  color: green;
+  text-align: center;
+}
+
+.wordBox-line {
+  border-bottom: 5px solid black;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.wordBox:last-of-type {
+  margin-right: 0px;
+}
+
+#letter {
+  text-align: center;
+  width: 200px;
+  margin-top: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 60px;
+  border: none;
+  display: none;
+}
+
+#startGame {
+  margin-bottom: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+
+#msgBox {
+  font-size: 30px;
+  margin-top: 40px;
+}
